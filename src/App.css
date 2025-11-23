@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.navCon{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+border-bottom: 3px solid #fff;
+}
+@media(max-width:660px){
+    nav{
+        background-color: #fff;
+    }
+}
+.navTitle{
+    color: #000;
+}
+.navTitle:hover {
+  color: #198754;
+  
+}
+header{
+
+    width: 100%;
+}
+.headerBg{
+    background-image: url('https://themewagon.github.io/iStudio/img/hero-bg.jpg');
+    height: 100vh;
+    width: 100%;
+      background-size: cover;
+  background-position: center;
+
+}
