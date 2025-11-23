@@ -1,6 +1,6 @@
 
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Header from "./Header";
+import Home from "./Home.jsx";
 
 
 import Navbar from "./Navbar";
@@ -11,10 +11,10 @@ function App() {
     <Router>
       <Navbar />
       <Routes>
-        <Route path="Header" element={<Header />}></Route>
+        <Route path="/Home" element={<Home />}/>
       
       </Routes>
-      <Header />
+      <Home />
    
     </Router>
   );

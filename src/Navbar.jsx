@@ -17,8 +17,8 @@ const Navbar = () => {
         </button>
         <div id="NavbarNav" className="collapse navbar-collapse">
           <ul className="navbar-nav ms-auto mb-2 mb-lg-0  ">
-            <Link to="Header" smooth={true} className="nav nav-link fw-semibold navTitle">
-              Header
+            <Link to="Home" smooth={true} className="nav nav-link fw-semibold navTitle">
+              Home
             </Link>
             <Link to="About" smooth={true} className="nav nav-link fw-semibold navTitle">
               About
