@@ -11,8 +11,8 @@ function App() {
     <Router>
       <Navbar />
       <Routes>
-        <Route path="/Home" element={<Home />}/>
-      <Route path="'/About" element={<About/>}/>
+        <Route path="/Home" smooth={true} duration={100} element={<Home />}/>
+      <Route path="'/About" smooth={true} duration={100} element={<About/>}/>
       </Routes>
       <Home />
    <About/>
