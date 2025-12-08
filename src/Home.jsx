@@ -6,7 +6,7 @@ const Home = () => {
     <header id="Home">
       <div className="headerBg pb-5">
         <div className="container">
-          <div className="row pt-5 d-flex justify-content-between">
+          <div className="row pt-5 d-flex justify-content-center">
             <div className="col-lg-6 col-12 mt-5 pt-5  ">
               <h1 className="headerTitle1 mt-5 pt-5">
                 We Make Your <span className="headerTitle1-1">Home</span> Better
@@ -44,11 +44,11 @@ const Home = () => {
                     }}
                   >
                     <div
-                      id="carouselExample"
-                      className="carousel slide w-100 ms-auto"
+                      id="carouselHome"
+                      className="carousel slide w-100 ms-2"
                       data-bs-ride="carousel"
                     >
-                      <div className="carousel-inner rounded overflow-hidden">
+                      <div className="carousel-inner rounded overflow-hidden ">
                         <div className="carousel-item active">
                           <img
                             src={header1}
@@ -72,6 +72,9 @@ const Home = () => {
                           />
                         </div>
                       </div>
+
+
+                      
                     </div>
                   </div>
                 </div>

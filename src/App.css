@@ -80,8 +80,6 @@ header {
   .caroImg {
     top: 30% !important;
     height: 300px !important;
-
-  
   }
 }
 
@@ -110,7 +108,6 @@ header {
   background-color: #2c3e50;
   height: 16%;
   width: 100%;
-
 }
 .iconColor,
 .iconAbout {
@@ -118,7 +115,6 @@ header {
   transition: color 0.5s ease;
   display: flex;
   align-items: center;
-  
 }
 .iconAbout:hover .iconColor {
   color: #fff;
@@ -130,13 +126,148 @@ header {
   background-color: #2c3e50;
 }
 
-
- .imgZoom{
-transition: transform 1s ease ;
-
+.imgZoom {
+  transition: transform 1s ease;
 }
 
-.projectsImg:hover .imgZoom{
-transform: scale(1.1);
+.projectsImg:hover .imgZoom {
+  transform: scale(1.1);
+}
 
+/* service */
+
+.title1 {
+  font-size: 27px;
+  background-color: #2c3e50;
+  position: relative;
+  top: -140px;
+  padding: 10px 20px;
+  left: 24px;
+  width: fit-content;
+  transition: background-color 1s ease;
+}
+.title2 {
+  font-size: 27px;
+  background-color: #ecf0f1;
+  position: relative;
+  top: -140px;
+  padding: 10px 20px;
+  left: 24px;
+  width: fit-content;
+  transition: background-color 1s ease;
+}
+
+.title3 {
+  font-size: 27px;
+  background-color: #ecf0f1;
+  position: relative;
+  top: -140px;
+  padding: 10px 20px;
+  left: 24px;
+  width: fit-content;
+  transition: background-color 1s ease;
+}
+.title4 {
+  font-size: 27px;
+  background-color: #2c3e50;
+  position: relative;
+  top: -140px;
+  padding: 10px 20px;
+  left: 24px;
+  width: fit-content;
+  transition: background-color 1s ease;
+}
+.description {
+  font-size: 18px;
+  line-height: 1.6;
+
+  position: relative;
+  top: -26px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.serviceBox1 {
+  color: #c7c6c6;
+  background-color: #2c3e50;
+  transition: background-color 1s ease;
+}
+.serviceBox2 {
+  background-color: #ecf0f1;
+  transition: background-color 1s ease;
+}
+
+.serviceBox2:hover .title2,
+.serviceBox2:hover {
+  background-color: #2c3e50;
+  color: #c7c6c6;
+}
+.serviceBox3:hover .title3,
+.serviceBox3:hover {
+  background-color: #2c3e50;
+  color: #c7c6c6;
+}
+.serviceBox1:hover .title1,
+.serviceBox1:hover {
+  background-color: #ecf0f1;
+  color: #000000;
+}
+.serviceBox4:hover .title4,
+.serviceBox4:hover {
+  background-color: #ecf0f1;
+  color: #000000;
+}
+.serviceBox3 {
+  color: #000000;
+  background-color: #ecf0f1;
+  transition: background-color 1s ease;
+}
+
+.serviceBox4 {
+  color: #c7c6c6;
+  background-color: #2c3e50;
+  transition: background-color 1s ease;
+}
+
+/* team */
+.zoomContainer{
+overflow: hidden;
+}
+.teamImg{
+  transition: transform 0.3s ease-in-out;
+}
+.zoomContainer:hover .teamImg {
+transform: scale(1.1);
+}
+
+/* service */
+.carotitle::before{
+  position: absolute;
+  content: "";
+  top: 62%;
+  width: 40px;
+  height: 2px;
+ background-color: #2c3e50;
+}
+.caroBg::before{
+  position: absolute;
+  content: "";
+  top: 0;
+  left: -300px;
+  width: calc(50% + 45px);
+  height: 100%;
+ background-color: #2c3e50;
+  z-index: -1;
+}
+.btn-costum .active{
+  background-color: #2c3e50;
+}
+@media (max-width:768px) {
+  .caroBg::before{
+      width: calc(100% + 45px);
+        height: 70%;
+        
+  }
+  
 }

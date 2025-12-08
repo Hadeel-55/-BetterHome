@@ -24,7 +24,7 @@ const Navbar = () => {
               About
             </Link>
             <Link
-              to="Services"
+              to="Service"
               smooth={true}
               className="nav nav-link fw-semibold navTitle"
             >
