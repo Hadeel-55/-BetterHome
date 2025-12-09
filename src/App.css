@@ -8,7 +8,9 @@
   padding-bottom: 10px;
   border-bottom: 3px solid #fff;
 }
-
+  nav {
+    background-color: #fff;
+  }
 @media (max-width: 989px) {
   nav {
     background-color: #fff;
@@ -267,7 +269,50 @@ transform: scale(1.1);
   .caroBg::before{
       width: calc(100% + 45px);
         height: 70%;
-        
+        position: relative;
+
+  }
+  /* contact */
+  .formEmail{
+    margin-left: auto;
+    margin-right: auto;
   }
   
+}
+/* contact */
+
+.iconColorCon:hover{
+  color: #ffffff;
+
+}
+.iconContact:hover{
+  background-color:#62778d;
+}
+
+.iconColorCon,
+.iconContact {
+  color: #62778d;
+  transition: color 0.5s ease;
+  display: flex;
+  align-items: center;
+}
+.iconContact:hover .iconColor {
+  color: #62778d;
+}
+.iconContact {
+  transition: background-color 1s ease;
+}
+.iconContact:hover {
+  background-color: #62778d;
+  color: #fff;
+}
+li{
+  color: #62778d;
+  transition: color 0.3s ease;
+  transition: transform 0.3s ease;
+}
+li:hover{
+  color: #fff;
+  transform: translateX(4px);
+
 }
